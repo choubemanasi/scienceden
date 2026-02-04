@@ -559,7 +559,29 @@ nav {
         transform: translateY(-3px);
     }
 
+.register-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d6064;
+    background-color: #f9f7e8; /* Science Blue */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
+  .register-button:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .register-button:active {
+    transform: translateY(0);
+  }
 
     </style>
 </head>
@@ -665,16 +687,7 @@ Sunday starting at 2pm!</b></p>
         </div>
     </section>
 
-    <!-- <section id="founder" class="founder reveal">
-        <div style="flex: 1;" class="founder-img">
-            <img src="images/manasi_library.jpeg" alt="Founder Illustration">
-        </div>
-       <div class="founder-content">
-            <h2>Greetings from our Founder</h2>
-            <p style="font-size: 1.5rem; color: var(--teal);">I’m Manasi Choube, a high schooler in Homestead Highschool.</p>
-            <p>The Science Den is my way of making complex topics fun and interesting for kids everywhere.</p>
-        </div>
-    </section>-->
+   
 <section id="founder" class="founder reveal">
         <div style="flex: 1;" class="founder-img">
             <img src="images/manasi_library.jpeg" alt="Founder Illustration">
@@ -703,6 +716,14 @@ Sunday starting at 2pm!</b></p>
 
 
     <section id="contact" class="contact-section reveal">
+
+<div >
+<a href="https://forms.gle/vxs1BYkdwUcCBbtB8" target="_blank" class="register-button">
+    Register for The Science Den
+  </a>
+
+</div>
+
         <h2 class="reveal-heading" style="color: white;">Get in Touch</h2>
         <p>Have questions about our Sunday sessions? Drop us an email!</p>
         <div class="email-box">
@@ -747,19 +768,6 @@ Sunday starting at 2pm!</b></p>
         window.addEventListener("scroll", reveal);
         reveal(); // Check on initial load
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
    
